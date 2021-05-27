@@ -17,10 +17,7 @@ with open("SchoolAdmin.csv","w+") as file:
             b=input("ENTER 'YES' TO CHANGE THE DEATILS OR ENTER 'N'")
             if b=="N" or b=="n":
                 wr.writerow([h,i,j,k,l])
-                break
-                d=d+1
-            
-
+                break            
     while True:
         c=input("ENTER 'YES' TO ENTER DETAILS OR ENTER 'NO'")  
         d=d+1
